@@ -1,0 +1,289 @@
+body{
+    background: #000;
+}
+
+.navbar{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    border-bottom: 1px solid white;
+}
+
+.nav-link{
+    margin-left: 20px;
+    color: white !important;
+    
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid rgba(8, 74, 196, 0.733);
+    color: white !important;
+}
+
+.btn-modal{
+    margin-left: 20px;
+    border-radius: 10px;
+    height: 40px;
+}
+
+/* landing page article */
+.headline{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.title-article{
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    color: white !important;
+    text-align: center;
+}
+
+hr{
+    border: 2px solid white;
+    width: 100%;
+    margin-top: -5px;
+}
+
+.main-article img{
+    width: 430px;
+    height: 460px;
+}
+
+.title-main-article{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    color: white;
+    top: 80%;
+    left: 10%;
+}
+
+.title-main-article:hover{
+    cursor: pointer;
+    text-decoration: underline;
+} 
+
+.side-article{
+    margin-left: -10px;
+}
+
+.first-side-article img{
+    width: 315px;
+    height: 225px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.content-side-article{
+    position: absolute;
+    font-size: 14px;
+    color: white;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    top: 70%;
+    left: 20%;
+    width: 250px;
+}
+
+.content-side-article:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#article{
+    text-align: center;
+}
+
+.image-article img{
+    width: 290px;
+    height: 150px;
+    text-align: center;
+}
+
+.content-article{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: white !important;
+    margin-top: 10px;
+}
+
+.content-article:hover{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(10, 187, 218) !important;
+}
+
+.main-video iframe{
+    width: 450px;
+    height: 405px;
+}
+
+.side-content-video{
+    margin-bottom: 10px;
+}
+
+footer{
+    border-top: 1px solid white;
+    margin-top: 20px;    
+}
+
+h5{
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 10px;
+}
+/* end landing page article */
+
+.artikel-utama{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.artikel-utama img{
+    width: 100%;
+}
+
+.artikel-utama h1{
+    color: white;
+    font-size: 28px;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.author{
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.poin{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.isi-artikel img{
+    width: 380px;
+    height: 210px;
+}
+
+.isi-artikel p{
+    color: white;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+
+.sidebar-artikel{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sidebar-artikel h1{
+    color: white;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    border-bottom: 1px solid white;
+}
+
+.sidebar-artikel h2{
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.sidebar-artikel h2:hover{
+    font-size: 16px;  
+    color:  rgba(8, 74, 196, 0.842);
+}
+
+
+.tags h3{
+    color: white;
+    margin-bottom: 20px;
+}
+.share h3{
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+
+/* desktop */
+@media (min-width: 992px) {
+    /* landing page article */
+    .title-main-article{
+        position: absolute;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        text-align: left;
+        color: white;
+        top: 80%;
+        left: 5%;
+    }
+    
+    .search-form{
+        margin-top: 10px;
+        width: 400px;
+    }
+
+    hr{
+        width: 200px;
+    }
+
+    .first-side-article img{
+        width: 315px;
+        height: 225px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+
+    .content-side-article{
+        position: absolute;
+        font-size: 14px;
+        color: white;
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+        top: 70%;
+        left: 10%;
+    }
+
+    .title-article{
+        text-align: left;
+    }
+    
+    .main-article img{
+        width: 630px;
+        height: 460px;
+    }
+
+    .main-video iframe{
+        width: 850px;
+        height: 605px;
+    }
+    /* end of landing page article */
+    /* artikel page */
+    .artikel-utama img{
+        width: 850px;
+        height: 400px;
+    }
+    .isi-artikel img{
+        width: 350px;
+        height: 215px;
+    }
+    .sidebar-artikel{
+        text-align: left;
+    }
+    /* end of artikel page */
+ }
