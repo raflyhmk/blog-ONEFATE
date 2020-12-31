@@ -220,7 +220,7 @@ h5{
 
 
 /* desktop */
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
     /* landing page article */
     .title-main-article{
         position: absolute;
@@ -287,3 +287,5 @@ h5{
     }
     /* end of artikel page */
  }
+
+ 
