@@ -49,6 +49,7 @@ hr{
 .main-article img{
     width: 430px;
     height: 460px;
+    margin-top: 10px;
 }
 
 .title-main-article{
@@ -207,6 +208,10 @@ h5{
     color:  rgba(8, 74, 196, 0.842);
 }
 
+.sidebar-artikel-terbaru img{
+    width: 420px;
+    height: 210px;
+}
 
 .tags h3{
     color: white;
@@ -217,9 +222,128 @@ h5{
     margin-bottom: 20px;
 }
 
+/* phone */
+@media (min-width: 576px){
+    .title-main-article{
+        left: 15%;
+    }
+    .content-side-article{
+        left: 25%;
+    }
+}
 
+/* tablet */
+@media(min-width: 768px) {
+    .main-article img{
+        width: 600px;
+    }
+    .title-main-article{
+        left: 15%;
+    }
+    .content-side-article{
+        left: 32%;
+    }
+}
 
 /* desktop */
+@media (min-width: 992px) {
+    /* landing page article */
+    .search-form{
+        margin-top: 0px;
+        width: 300px;
+    }
+
+    hr{
+        width: 200px;
+    }
+
+    .main-article img{
+        width: 430px;
+        height: 360px;
+    }
+
+    .title-main-article{
+        position: absolute;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        text-align: left;
+        color: white;
+        top: 80%;
+        left: 10%;
+    }
+
+    .first-side-article img{
+        width: 215px;
+        height: 175px;
+        margin-bottom: 10px;
+    }
+
+    .content-side-article{
+        position: absolute;
+        font-size: 10px;
+        color: white;
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+        top: 70%;
+        left: 10%;
+    }
+
+    .title-article{
+        text-align: left;
+    }
+    
+    
+    .image-article img{
+        width: 190px;
+        height: 100px;
+        text-align: center;
+    }
+    
+    .content-article{
+        font-size: 12px;
+    }
+
+    .content-article:hover{
+        font-size: 12px;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(10, 187, 218) !important;
+    }
+
+    .main-video iframe{
+        width: 650px;
+        height: 605px;
+    }
+
+    .side-content-video iframe{
+        width: 250px;
+        height: 200px;
+    }
+    /* end of landing page article */
+    /* artikel page */
+    .artikel-utama img{
+        width: 650px;
+        height: 300px;
+    }
+    .isi-artikel img{
+        width: 350px;
+        height: 215px;
+    }
+    .sidebar-artikel{
+        text-align: left;
+        margin-top: 15px;
+    }
+    .sidebar-artikel-terbaru img{
+        width: 275px;
+        height: 160px;
+    }
+    .sidebar-artikel h2{
+        font-size: 14px;
+    }
+    /* end of artikel page */
+ }
+
+/* large desktop */
 @media (min-width: 1200px) {
     /* landing page article */
     .title-main-article{
@@ -244,9 +368,8 @@ h5{
 
     .first-side-article img{
         width: 315px;
-        height: 225px;
+        height: 220px;
         margin-bottom: 10px;
-        margin-top: 0px;
     }
 
     .content-side-article{
@@ -262,15 +385,32 @@ h5{
     .title-article{
         text-align: left;
     }
-    
+
+    .image-article img{
+        width: 290px;
+        height: 150px;
+        text-align: center;
+    }
     .main-article img{
         width: 630px;
         height: 460px;
+    }
+    
+    .content-article{
+        font-size: 14px;
+    }
+    .content-article:hover{
+        font-size: 14px;
     }
 
     .main-video iframe{
         width: 850px;
         height: 605px;
+    }
+
+    .side-content-video iframe{
+        width: 100%;
+        height: 190px;
     }
     /* end of landing page article */
     /* artikel page */
@@ -284,6 +424,21 @@ h5{
     }
     .sidebar-artikel{
         text-align: left;
+    }
+    .isi-artikel img{
+        width: 350px;
+        height: 215px;
+    }
+    .sidebar-artikel{
+        text-align: left;
+        margin-top: 15px;
+    }
+    .sidebar-artikel-terbaru img{
+        width: 420px;
+        height: 210px;
+    }
+    .sidebar-artikel h2{
+        font-size: 16px;
     }
     /* end of artikel page */
  }
