@@ -65,13 +65,8 @@ hr{
     width: 430px;
     height: 460px;
     margin-top: 10px;
-    overflow: hidden;
-    transition: 0.75s ease-in-out;
 }
-
-.main-article:hover img{
-    transform: scale(1.03);
-}
+ 
 .title-main-article{
     position: absolute;
     font-size: 20px;
@@ -97,12 +92,10 @@ hr{
     height: 225px;
     margin-bottom: 10px;
     margin-top: 10px;
-    overflow: hidden;
-    transition: 0.75s ease-in-out;
 }
 
 .first-side-article:hover img{
-    transform: scale(1.05);
+    color: rgb(10, 187, 218) !important;
 }
 
 .content-side-article{
@@ -129,14 +122,8 @@ hr{
     width: 290px;
     height: 150px;
     text-align: center;
-    overflow: hidden;
-    transition: 0.75s ease-in-out;
 }
-
-.image-article:hover img{ 
-    transform: scale(1.1);
-}
-
+ 
 .content-article{
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
@@ -243,14 +230,7 @@ h5{
 .sidebar-artikel-terbaru img{
     width: 100%;
     height: 210px;
-    overflow: hidden;
-    transition: 0.75s ease-in-out;
-}
-
-.sidebar-artikel-terbaru:hover img{
-    transform: scale(1.05);
-}
-
+} 
 
 .tags h3{
     color: white;
