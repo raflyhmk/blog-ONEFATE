@@ -62,7 +62,7 @@ hr{
 }
 
 .main-article img{
-    width: 430px;
+    width: 100%;
     height: 460px;
     margin-top: 10px;
 }
@@ -127,7 +127,7 @@ hr{
 .content-article{
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
-    color: white !important;
+    color: white;
     margin-top: 10px;
 }
 
@@ -138,7 +138,7 @@ hr{
 }
 
 .main-video iframe{
-    width: 450px;
+    width: 100%;
     height: 405px;
 }
 
@@ -160,86 +160,7 @@ h5{
 }
 /* end landing page article */
 
-.artikel-utama{
-    margin-top: 20px;
-    text-align: center;
-}
 
-.artikel-utama img{
-    width: 100%;
-}
-
-.artikel-utama h1{
-    color: white;
-    font-size: 28px;
-    margin-top: 30px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-}
-
-.author{
-    font-style: italic;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-}
-
-.poin{
-    font-size: 24px;
-    font-weight: 500;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-}
-
-.isi-artikel img{
-    width: 380px;
-    height: 210px;
-}
-
-.isi-artikel p{
-    color: white;
-    margin-top: 10px;
-    font-family: 'Poppins', sans-serif;
-    text-align: left;
-}
-
-.sidebar-artikel{
-    text-align: center;
-    margin-top: 20px;
-}
-
-.sidebar-artikel h1{
-    color: white;
-    font-size: 28px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    border-bottom: 1px solid white;
-}
-
-.sidebar-artikel h2{
-    font-size: 16px;
-    color: white;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-.sidebar-artikel h2:hover{
-    font-size: 16px;  
-    color:  rgba(8, 74, 196, 0.842);
-}
-
-.sidebar-artikel-terbaru img{
-    width: 100%;
-    height: 210px;
-} 
-
-.tags h3{
-    color: white;
-    margin-bottom: 20px;
-}
-.share h3{
-    color: white;
-    margin-bottom: 20px;
-}
 
 /* phone */
 @media (min-width: 576px){
@@ -339,27 +260,7 @@ h5{
         height: 200px;
     }
     /* end of landing page article */
-    /* artikel page */
-    .artikel-utama img{
-        width: 650px;
-        height: 300px;
-    }
-    .isi-artikel img{
-        width: 350px;
-        height: 215px;
-    }
-    .sidebar-artikel{
-        text-align: left;
-        margin-top: 15px;
-    }
-    .sidebar-artikel-terbaru img{
-        width: 275px;
-        height: 160px;
-    }
-    .sidebar-artikel h2{
-        font-size: 14px;
-    }
-    /* end of artikel page */
+    
  }
 
 /* large desktop */
@@ -433,34 +334,7 @@ h5{
         height: 190px;
     }
     /* end of landing page article */
-    /* artikel page */
-    .artikel-utama img{
-        width: 850px;
-        height: 400px;
-    }
-    .isi-artikel img{
-        width: 350px;
-        height: 215px;
-    }
-    .sidebar-artikel{
-        text-align: left;
-    }
-    .isi-artikel img{
-        width: 350px;
-        height: 215px;
-    }
-    .sidebar-artikel{
-        text-align: left;
-        margin-top: 15px;
-    }
-    .sidebar-artikel-terbaru img{
-        width: 420px;
-        height: 210px;
-    }
-    .sidebar-artikel h2{
-        font-size: 16px;
-    }
-    /* end of artikel page */
+   
  }
 
  

@@ -1,0 +1,194 @@
+/* body */
+body{
+    background: #000;
+}
+
+.navbar{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    border-bottom: 1px solid white;
+}
+
+.nav-link{
+    margin-left: 20px;
+    color: white !important;
+    
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid rgba(8, 74, 196, 0.733);
+    color: white !important;
+}
+
+.btn-modal{
+    margin-left: 20px;
+    border-radius: 10px;
+    height: 40px;
+}
+
+/* login */
+
+.modal-footer {
+	background: #ecf0f1;
+	border-color: #dee4e7;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 16px;
+	justify-content: center;
+}
+
+.modal-footer a{
+    margin-top: 20px;
+}
+/* artikel utama */
+.artikel-utama{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.artikel-utama img{
+    width: 100%;
+}
+
+.artikel-utama h1{
+    color: white;
+    font-size: 28px;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.author{
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.poin{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.isi-artikel img{
+    width: 100%;
+    height: 210px;
+}
+
+.isi-artikel p{
+    color: white;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+
+.sidebar-artikel{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sidebar-artikel h1{
+    color: white;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    border-bottom: 1px solid white;
+}
+
+.sidebar-artikel h2{
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.sidebar-artikel h2:hover{
+    font-size: 16px;  
+    color:  rgba(8, 74, 196, 0.842);
+}
+
+.sidebar-artikel-terbaru img{
+    width: 100%;
+    height: 210px;
+} 
+
+.tags h3{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.share h3{
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer{
+    border-top: 1px solid white;
+    margin-top: 20px;    
+}
+
+h5{
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 10px;
+}
+
+@media (min-width : 992px) {
+    /* artikel page */
+    .artikel-utama img{
+        width: 650px;
+        height: 300px;
+    }
+    .isi-artikel img{
+        width: 350px;
+        height: 215px;
+    }
+    .sidebar-artikel{
+        text-align: left;
+        margin-top: 15px;
+    }
+    .sidebar-artikel-terbaru img{
+        width: 275px;
+        height: 160px;
+    }
+    .sidebar-artikel h2{
+        font-size: 14px;
+    }
+    /* end of artikel page */
+}
+
+
+
+@media (min-width: 1200px){
+     /* artikel page */
+     .artikel-utama img{
+        width: 850px;
+        height: 400px;
+    }
+    .isi-artikel img{
+        width: 350px;
+        height: 215px;
+    }
+    .sidebar-artikel{
+        text-align: left;
+    }
+    .isi-artikel img{
+        width: 350px;
+        height: 215px;
+    }
+    .sidebar-artikel{
+        text-align: left;
+        margin-top: 15px;
+    }
+    .sidebar-artikel-terbaru img{
+        width: 420px;
+        height: 210px;
+    }
+    .sidebar-artikel h2{
+        font-size: 16px;
+    }
+    /* end of artikel page */
+}
